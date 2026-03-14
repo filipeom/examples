@@ -1,0 +1,8 @@
+[
+    {
+        "filename": "/home/graphjs/datasets/vulcan-dataset/CWE-22/374/src/index.js",
+        "vuln_type": "path-traversal",
+        "sink": "fs.readFile(path,function (error,data) {",
+        "sink_lineno": 10
+    }
+]

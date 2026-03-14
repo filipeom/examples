@@ -1,0 +1,8 @@
+[
+    {
+        "filename": "/home/graphjs/datasets/vulcan-dataset/CWE-78/153/src/dns-sync.js",
+        "vuln_type": "command-injection",
+        "sink": "response = shell.exec(cmd, {silent: true});",
+        "sink_lineno": 21
+    }
+]

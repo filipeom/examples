@@ -1,0 +1,18 @@
+[
+  {
+    "filename": "./src/read-file.js",
+    "vuln_type": "path-traversal",
+    "source": "module.exports",
+    "tainted_params": [ "file" ],
+    "params_types": {
+      "file" : "string"
+    },
+    "returns": {
+      "source": "",
+      "tainted_params" : [ "done" ],
+      "params_types": {
+        "done" : "function"
+      }
+    }
+  }
+]

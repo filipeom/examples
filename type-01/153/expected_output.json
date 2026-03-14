@@ -1,0 +1,15 @@
+[
+    {
+        "type" : "VFunPropOfExportedObj",
+        "filename": "src/dns-sync.js",
+        "vuln_type": "command-injection",
+        "source": "module.exports.resolve",
+        "sink": "exec",
+        "tainted_params": [
+            "hostname"
+        ],
+        "params_types": {
+            "hostname": "string"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "type": "VFunExported",
+        "filename": "/datasets/secbench-dataset/CWE-471/copy-props_2.0.4/src/index.js",
+        "vuln_type": "prototype-pollution",
+        "sink": "obj[key] = value;",
+        "sink_lineno": 197,
+        "source": "module.exports",
+        "tainted_params": [
+            "src",
+            "dst",
+            "fromto",
+            "converter",
+            "reverse"
+        ],
+        "params_types": {
+            "src": "any",
+            "dst": "any",
+            "fromto": {
+                "_union": [
+                    "array",
+                    "boolean",
+                    "function"
+                ]
+            },
+            "converter": "boolean",
+            "reverse": "any"
+        },
+        "call_paths": [
+            {
+                "type": "Call",
+                "fn_name": "2223.v108-o273",
+                "fn_id": 1287,
+                "source_fn_id": 1287
+            }
+        ]
+    }
+]
